@@ -46,8 +46,8 @@
                 default_layer {
                         bindings = <
    &td ESC GRAVE AS(Q) AS(W) AS(E) AS(R) AS(T)       AS(Y) AS(U) AS(I) AS(O) AS(P) &kp BSPC
-   &td TAB LALT AS(A) AS(S) AS(D) AS(F) AS(G) AS(H)       AS(J) AS(K) AS(L) AS(SEMI) AS(SQT)
-   &td LPAR LSHFT AS(Z) AS(X) AS(C) AS(V) AS(B)   AS(N) AS(M) AS(COMMA) AS(DOT) AS(FSLH) &td RET AS(BSLH)
+   &td TAB LALT AS(A) AS(S) AS(D) AS(F) AS(G)        AS(H) AS(J) AS(K) AS(L) AS(SEMI) AS(SQT)
+   &td LPAR LSHFT AS(Z) AS(X) AS(C) AS(V) AS(B)      AS(N) AS(M) AS(COMMA) AS(DOT) AS(FSLH) &td RET BSLH
                   &kp LGUI &tog 1 &lt 1 SPACE        &lt 1 SPACE &mo 2 &td RPAR RSHFT
                         >;
                 };
