@@ -59,7 +59,6 @@
                       &kp LGUI &tog 2 &to 0                &kp RET &to 2 &kp RALT
                         >;
                 };
-
                 raise_layer {
                         bindings = <
    &trans &trans &trans &trans &trans &trans                   &trans &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp RPAR &kp BSPC
