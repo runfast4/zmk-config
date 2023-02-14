@@ -50,7 +50,7 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 //                    | GUI | LWR | SPC |   | SPC | RSE  | ENT |
                         bindings = <
-   AS(GRAVE)   AS(Q) AS(W) AS(E) AS(R) AS(T)   AS(Y) AS(U) AS(O) AS(P) &kp BSPC
+   AS(GRAVE)   AS(Q) AS(W) AS(E) AS(R) AS(T)   AS(Y) AS(U) AS(I) AS(O) AS(P) &kp BSPC
    &kp TAB AS(A) AS(S) AS(D) AS(F) AS(G)   AS(H) AS(J) AS(K) AS(L)   AS(SEMI) AS(SQT)
    &kp LSHFT AS(Z) AS(X) AS(C) AS(V) AS(B)   AS(N) AS(M)  AS(COMMA) AS(DOT) AS(FSLH) &kp RET
                   &kp LGUI &mo 1 &lt 1 SPACE    &kp SPACE &mo 2 &kp RET
