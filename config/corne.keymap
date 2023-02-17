@@ -22,7 +22,7 @@
     alcbd: alcbd {  //Alfred clipboard macro
         label = "alfred_clipboard";
         compatible = "zmk,behavior-macro";
-        #binding-cells = <2>;
+        #binding-cells = <0>;
         bindings
             = <&macro_press &kp LGUI &kp LALT>
             , <&macro_tap &kp C>
@@ -59,7 +59,7 @@
             tapping-term-ms = <170>;
             quick_tap_ms = <0>;
             flavor = "hold-preferred";
-            bindings = <&kp LGUI &alcbd>;
+            bindings = <&kp LGUI>, <&alcbd>;
         };
     };
 
