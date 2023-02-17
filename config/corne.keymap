@@ -18,18 +18,6 @@
 
 / {
 
-    macros {
-    alcbd: alcbd {  //Alfred clipboard macro
-        label = "alfred_clipboard";
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings
-            = <&macro_press &kp LGUI &kp LALT>
-            , <&macro_tap &kp C>
-            , <&macro_release &kp LGUI &kp LALT>
-            ;
-        };
-
     };
     behaviors {
         as: auto_shift {
@@ -51,16 +39,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-
-        td1: tapdance1 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TAPDANCE1";
-            #binding-cells = <2>;
-            tapping-term-ms = <170>;
-            quick_tap_ms = <0>;
-            flavor = "hold-preferred";
-            bindings = <&kp LGUI>, <&alcbd>;
-        };
     };
 
 
@@ -72,7 +50,7 @@
    &td GRAVE ESC AS(Q) AS(W) AS(E) AS(R) AS(T)       AS(Y) AS(U) AS(I) AS(O) AS(P) &kp BSPC
    &td LALT TAB AS(A) AS(S) AS(D) AS(F) AS(G)        AS(H) AS(J) AS(K) AS(L) AS(SEMI) AS(SQT)
    &td LSHFT LPAR AS(Z) AS(X) AS(C) AS(V) AS(B)      AS(N) AS(M) AS(COMMA) AS(DOT) AS(FSLH) &td BSLH RET
-                  &td1 &tog 1 &lt 1 SPACE        &lt 1 SPACE &mo 2 &td RSHFT RPAR
+                  &mt LGUI LG(LA(C)) &tog 1 &lt 1 SPACE        &lt 1 SPACE &mo 2 &td RSHFT RPAR
                         >;
                 };
                 lower_layer {
