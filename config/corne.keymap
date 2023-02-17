@@ -59,7 +59,7 @@
             tapping-term-ms = <170>;
             quick_tap_ms = <0>;
             flavor = "hold-preferred";
-            bindings = <LGUI>, <&alcbd>;
+            bindings = <&kp LGUI>, <&alcbd>;
         };
     };
 
