@@ -22,7 +22,7 @@
     alcbd: alcbd {  //Alfred clipboard macro
         label = "alfred_clipboard";
         compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
+        #binding-cells = <2>;
         bindings
             = <&macro_press &kp LGUI &kp LALT>
             , <&macro_tap &kp C>
@@ -78,7 +78,7 @@
                 lower_layer {
                         bindings = <
    &kp GRAVE AS(N1) AS(N2) AS(N3) AS(N4) AS(N5)                 AS(N6) AS(N7) AS(N8) AS(N9) AS(N0) &kp DEL
-   &sk LCTRL &trans &kp C_PREV &kp C_PP &kp C_VOL_UP &kp C_NEXT  &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans AS(MINUS)
+   &sk LCTRL &trans &kp C_PREV &kp C_PP &kp C_VOL_UP &kp C_NEXT  &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans AS(MINUS)
    &kp LSHFT &trans &trans &kp C_MUTE &kp C_VOL_DN &trans     &trans &trans &trans &trans &trans &trans
                       &kp LGUI &tog 2 &to 0                &kp RET &to 2 &kp RALT
                         >;
