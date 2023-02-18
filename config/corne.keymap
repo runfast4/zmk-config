@@ -47,23 +47,23 @@
 
                 default_layer {
                         bindings = <
-   &td GRAVE ESC AS(Q) AS(W) AS(E) AS(R) AS(T)       AS(Y) AS(U) AS(I) AS(O) AS(P) &kp BSPC
-   &td LALT TAB AS(A) AS(S) AS(D) AS(F) AS(G)        AS(H) AS(J) AS(K) AS(L) AS(SEMI) AS(SQT)
-   &td LSHFT LPAR AS(Z) AS(X) AS(C) AS(V) AS(B)      AS(N) AS(M) AS(COMMA) AS(DOT) AS(FSLH) &td BSLH RET
-                  &mt LGUI LG(LA(C)) &tog 1 &lt 1 SPACE        &lt 1 SPACE &mo 2 &td RSHFT RPAR
+   &mt GRAVE ESC AS(Q) AS(W) AS(E) AS(R) AS(T)       AS(Y) AS(U) AS(I) AS(O) AS(P) &kp BSPC
+   &mt LALT TAB AS(A) AS(S) AS(D) AS(F) AS(G)        AS(H) AS(J) AS(K) AS(L) AS(SEMI) AS(SQT)
+   &mt LSHFT LPAR AS(Z) AS(X) AS(C) AS(V) AS(B)      AS(N) AS(M) AS(COMMA) AS(DOT) AS(FSLH) &mt BSLH RET
+                  &mt LGUI LG(LA(C)) &tog 1 &lt 1 SPACE        &lt 1 SPACE &mo 2 &mt RSHFT RPAR
                         >;
                 };
                 lower_layer {
                         bindings = <
    &kp GRAVE AS(N1) AS(N2) AS(N3) AS(N4) AS(N5)                 AS(N6) AS(N7) AS(N8) AS(N9) AS(N0) &kp DEL
-   &sk LCTRL &trans &kp C_PREV &kp C_PP &kp C_VOL_UP &kp C_NEXT  &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans AS(MINUS)
-   &kp LSHFT &trans &trans &kp C_MUTE &kp C_VOL_DN &trans     &kp LC(A) &kp LC(E) &trans &trans &trans &trans
+   &sk LCTRL &kp LG(LS(4)) &kp C_PREV &kp C_PP &kp C_VOL_UP &kp C_NEXT  &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans AS(MINUS)
+   &kp LSHFT &kp LG(LS(LC(4))) &trans &kp C_MUTE &kp C_VOL_DN &trans     &kp LC(A) &kp LC(E) &trans &trans &trans &trans
                       &kp LGUI &tog 2 &to 0                &kp RET &to 2 &kp RALT
                         >;
                 };
                 raise_layer {
                         bindings = <
-   &trans &trans &trans &trans &trans &trans                   &trans &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp RPAR &kp BSPC
+   &trans &trans &trans &trans &trans &trans                   &kp LPAR &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp RPAR &td BSPC DEL
    &trans &trans &trans &trans &trans &trans                 &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_DIVIDE &kp GRAVE
    &trans &trans &bt BT_PRV &bt BT_NXT &bt BT_CLR &trans   &kp KP_PLUS &kp KP_N1 &kp KP_N2 &kp KP_N3 AS(MINUS) &kp TILDE
                       &kp LGUI &to 0 &kp SPACE      &kp RET &trans &kp KP_N0
