@@ -6,17 +6,17 @@ layout:
     thumbs: 3
 layers:
   QWERTY:
-    - ["ESC/GRV", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "BSPC"]
-    - ["TAB OPT", "A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'"]
-    - ["( SHIFT", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "/", "Esc"]
-    - ["LGUI LG(LA(C))", "TOG 1", "SPC MO1", "SPC MO1", "MO2", ") SHIFT"]
-  NUMBER:
-    - ["Tab", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "Del"]
-    - ["BT CLR", "BT 1", "BT 2", "BT 3", "BT 4", "BT 5", "Left", "Down", "Up", "Right", null, null]
-    - ["LShft", null, null, null, null, null, null, null, null, null, null, null]
-    - ["LGui", {type: held}, "Space", "Enter", null, "RAlt"]
-  SYMBOL:
-    - ["Tab", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "Bspace"]
-    - ["LCtrl", null, null, null, null, null, "-", "=", "[", "]", "\\", "`"]
-    - ["LShft", null, null, null, null, null, "_", "+", "{", "}", "|", "~"]
-    - ["LGui", null, "Space", "Enter", {type: held}, "RAlt"]
+    - ["Esc Grave", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Bspace"]
+    - ["Tab Opt", "A", "S", "D", "F", "G", "H", "J", "K", "L", "; :", "' \" "]
+    - ["( Shift", "Z", "X", "C", "V", "B", "N", "M", ", <", ". >", "/ ?", "Return \\"]
+    - ["Cmd CmdOptC", "Tog 1", "Space MO1", "Space MO1", "MO2", ") Shift"]
+  MEDIA_NAV:
+    - ["CapsWds", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "Del"]
+    - ["Ctrl", "Scrnsht Save", "Prev", "Play", "Vol +", "Next", "Left", "Up", "Down", "Right", null, "- _"]
+    - ["Shift ShftOpt", "Scrnsht Copy", null, "Mute", "Vol -", null, Home , End, "Prev Tab", "Next Tab", "[ {", "] }"]
+    - ["Cmd", "Tog 2", "To 0", "Return", "To 2", "Opt"]
+  NUMPAD:
+    - [null, null, null, null, null, null, "(", "7", "8", "9", ")", "Bspace"]
+    - [null, null, null, null, null, null, "*", "4", "5", "6", "/", "Del"]
+    - [null, null, BT Prev, BT Next, BT Clear, null, "+", "1", "2", "3", "-", "Return"]
+    - ["Cmd", "To 0", "Space", "Space", null, "0"]
