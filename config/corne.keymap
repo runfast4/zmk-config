@@ -37,7 +37,7 @@
             tapping-term-ms = <170>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>, <&kp>;
+            bindings = <&kp LSHFT>, <&kp LS(LALT)>, <&kp LS(LCTRL)>;
         };
     };
 
@@ -57,7 +57,7 @@
                         bindings = <
    &caps_word AS(N1) AS(N2) AS(N3) AS(N4) AS(N5)                 AS(N6) AS(N7) AS(N8) AS(N9) AS(N0) &kp DEL
    &sk LCTRL &kp LG(LS(N4)) &kp C_PREV &kp C_PP &kp C_VOL_UP &kp C_NEXT  &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans AS(MINUS)
-   &td LSHFT LS(LALT) LS(LCTRL) &kp LG(LS(LC(N4))) &trans &kp C_MUTE &kp C_VOL_DN &trans     &kp LC(A) &kp LC(E) &kp LG(LA(LEFT)) &kp LG(LA(RIGHT)) AS(LBKT) AS(RBKT)
+   &td &kp LG(LS(LC(N4))) &trans &kp C_MUTE &kp C_VOL_DN &trans     &kp LC(A) &kp LC(E) &kp LG(LA(LEFT)) &kp LG(LA(RIGHT)) AS(LBKT) AS(RBKT)
                       &kp LGUI &tog 2 &to 0                &kp RET &to 2 &kp RALT
                         >;
                 };
