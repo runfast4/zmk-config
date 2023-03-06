@@ -64,7 +64,7 @@
    &trans &trans &trans &trans &trans &trans                   &kp LPAR &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp RPAR &kp BSPC
    &trans &trans &trans &trans &trans &trans                 &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_DIVIDE &kp DEL
    &trans &trans &bt BT_PRV &bt BT_NXT &bt BT_CLR &trans   &kp KP_PLUS &kp KP_N1 &kp KP_N2 &kp KP_N3 AS(MINUS) &kp RET
-                      &kp LGUI &to 0 &kp SPACE      &kp SPACE &trans &kp KP_N0
+                      &kp LGUI &to 0 &kp SPACE      &kp SPACE &kp EQUAL &kp KP_N0
                         >;
                 };
         };
